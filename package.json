@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --cache --fix",
+    "lint": "eslint ./pages",
     "pre-commit": "lint-staged",
     "prepare": "husky install"
   },
