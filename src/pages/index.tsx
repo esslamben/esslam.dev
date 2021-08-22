@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import NavBar from "../components/NavBar";
 
 const Home: NextPage = () => (
   <div>
@@ -10,6 +11,8 @@ const Home: NextPage = () => (
     </Head>
 
     <main>
+      <NavBar />
+      hello
       <h1>Esslam Dev</h1>
     </main>
 
